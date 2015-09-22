@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wanjingyan.encodetext.Base64Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- 26个大写字母26个小写字母10个数字和/和+,组成64进制。=号补齐空位置-->
+    <EditText
+        android:id="@+id/base64_src"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/base64_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="编码" />
+
+    <EditText
+        android:id="@+id/base64_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/base64_decode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解码" />
+
+
+</LinearLayout>
